@@ -8,6 +8,21 @@ function createGame(player1, hour, player2){
   `;
 }
 
+function createGroup(team1, team2, team3, team4){
+  return `
+  <li>
+      <img src="./assets/flags/${team1}.svg" alt="Bandeira do ${team1}">
+      <strong>${team1}</strong>
+      <img src="./assets/flags/${team2}.svg" alt="Bandeira do ${team2}">
+      <strong>${team2}</strong>
+      <img src="./assets/flags/${team3}.svg" alt="Bandeira do ${team3}">
+      <strong>${team3}</strong>
+      <img src="./assets/flags/${team4}.svg" alt="Bandeira do ${team4}">
+      <strong>${team4}</strong>
+    </li>
+  `;
+}
+
 let delay = -0.2;
 function createCard(date, day, games){
   delay = delay + 0.2;

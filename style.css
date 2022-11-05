@@ -8,21 +8,21 @@
   --card-title-border-color:#746615;
   --card-color-primary:#F7DD43;
   --card-background-color:#1D1C19;
-  --bg: url(./assets/bg-yellow.svg);
+  --bg: url(./assets/bgs/bg-yellow.svg);
 }
 
 body.blue{
   --card-title-border-color:#338AF3;
   --card-color-primary:#338AF3;
   --card-background-color: #202024;
-  --bg: url(./assets/bg-blue.svg);
+  --bg: url(./assets/bgs/bg-blue.svg);
 }
 
 body.green{
   --card-title-border-color:#047C3F;
   --card-color-primary:#047C3F;
   --card-background-color: #1A1F1B;
-  --bg: url(./assets/bg-green.svg);
+  --bg: url(./assets/bgs/bg-green.svg);
 }
 
 ul{
@@ -45,6 +45,11 @@ body{
   width: fit-content;
   margin: auto;
   padding-top: 52px;
+}
+
+.links{
+  display: inline;
+  border: 1px #047C3F solid;
 }
 
 header{
